@@ -1,0 +1,60 @@
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\appsettings.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.staticwebassets.runtime.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.exe
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.deps.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.runtimeconfig.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.pdb
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.AssemblyInfoInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.AssemblyInfo.cs
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.csproj.CoreCompileInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.RazorAssemblyInfo.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.RazorAssemblyInfo.cs
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.BochaStore.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\bundle\BochaStore.UI.styles.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\projectbundle\BochaStore.UI.bundle.scp.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\refint\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.pdb
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.genruntimeconfig.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\Udemy\Bocha\BochaStore.UI\obj\Debug\net7.0\ref\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\appsettings.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.staticwebassets.runtime.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.exe
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.deps.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.runtimeconfig.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\bin\Debug\net7.0\BochaStore.UI.pdb
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.AssemblyInfoInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.AssemblyInfo.cs
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.csproj.CoreCompileInputs.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.RazorAssemblyInfo.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.RazorAssemblyInfo.cs
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.BochaStore.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BochaStore.UI.props
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\bundle\BochaStore.UI.styles.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\scopedcss\projectbundle\BochaStore.UI.bundle.scp.css
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\refint\BochaStore.UI.dll
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.pdb
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\BochaStore.UI.genruntimeconfig.cache
+C:\Users\esteb\OneDrive\Escritorio\Quinto Semestr\Progra IV\PROGRESO 1\Bocha\BochaStore.UI\obj\Debug\net7.0\ref\BochaStore.UI.dll

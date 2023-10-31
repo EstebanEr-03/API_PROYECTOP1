@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BochaAPI",
+    "\\BochaAPI\\Controllers",
+    "\\BochaStore.UI",
+    "\\BochaStore.UI\\Controllers",
+    "\\BochaStore.UI\\Models",
+    "\\BochaStore.UI\\Models\\DTO",
+    "\\BochaStore.UI\\Views",
+    "\\BochaStore.UI\\Views\\Producto",
+    "\\BochaStore.UI\\Views\\Shared"
+  ],
+  "SelectedNode": "\\BochaStore.UI\\Views\\Producto\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

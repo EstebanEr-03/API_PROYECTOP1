@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BochaStore.UI.Models.DTO.ProductoDTO>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1 class="mt-3">Regiones</h1>
+<table class="table table-bordered"> 
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Code</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody> 
+        @foreach (var produ in Model)
+        {
+            <tr>
+                <td>@produ.IdRegion</td>
+                <td>@produ.Code</td>
+                <td>@produ.Nombre</td>
+            </tr>
+        }
+    </tbody>
+</table>
