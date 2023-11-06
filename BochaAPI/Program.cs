@@ -15,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor();//para las imagenes
+builder.Services.AddHttpClient();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();//INYECCION DE SOURCES
@@ -70,6 +71,7 @@ builder.Services.AddScoped<IMagenRepositorio, LocalImagenRepositorio>();
 
 //INYECTAR AUTOMAPER CUANDO LA APLICACION COMINECE
 builder.Services.AddAutoMapper(typeof(PerfilesAutoMappers));
+
 builder.Services.AddIdentityCore<IdentityUser>()
     .AddRoles<IdentityRole>()
     .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Bocha")

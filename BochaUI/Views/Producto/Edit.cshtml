@@ -1,0 +1,53 @@
+﻿@model BochaUI.Models.Producto
+@{
+    ViewData["Title"] = "Editar Producto";
+}
+<h1 style="text-align:center">@ViewData["Title"]</h1>
+
+@if (Model is not null){
+<form method="post">
+    <div class="mb-3">
+        <br />
+        <label>Nombre :</label>
+        <input asp-for="Nombre" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Descripción :</label>
+        <input asp-for="Descripcion" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Cantidad :</label>
+        <input asp-for="Cantidad" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Imagen :</label>
+        <input asp-for="ImagenProductoURL" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Precio :</label>
+        <input asp-for="Precio" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Marca:</label>
+        <input asp-for="IdMarca" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label>Categoria :</label>
+        <input asp-for="IdCategoria" class="form-control">
+    </div>
+
+
+    <div class="row col-6">
+        <div class="col-3 col-md-3">
+            <br />
+            <button type="submit" class="btn btn-outline-light">Guardar</button>
+        </div>
+        <div class="col-3 col-md-3">
+            <br />
+            <a asp-action="Resumen" class="btn btn-outline-light">Regresar</a>
+        </div>
+    </div>
+
+
+</form>
+}

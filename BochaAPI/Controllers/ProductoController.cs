@@ -2,6 +2,7 @@
 using BochaAPI.Domain;
 using BochaAPI.Models.DTO;
 using BochaAPI.Repositorios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +10,7 @@ namespace BochaAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class ProductoController : ControllerBase
     {
         private readonly IMapper mapper;
@@ -25,6 +27,7 @@ namespace BochaAPI.Controllers
 
         //CREAR PRODUCTO
         [HttpPost]
+        //[Authorize(Roles ="Writer")]
         public async Task<IActionResult> CrearProductoAsync([FromBody] AddProductoRequestDTO nuevaProductoCliente)
         {
             //Map DTO to Domain Model
@@ -39,6 +42,7 @@ namespace BochaAPI.Controllers
         }
         //CREAR OBTENER TODO
         [HttpGet]
+        //[Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filtreQuery, [FromQuery] string? sortBy, [FromQuery] bool? isAscending)
         {
             var productosLista = await productoRepositorio.GetAllAsync(filterOn,filtreQuery, sortBy, isAscending ?? true);
@@ -52,6 +56,7 @@ namespace BochaAPI.Controllers
         //CREAR OBTENER POR ID
         [HttpGet]
         [Route("{id:Guid}")]
+        //[Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var productoEncontrada = await productoRepositorio.GetByIdAsync(id);
@@ -65,6 +70,7 @@ namespace BochaAPI.Controllers
         // EDITAR
         [HttpPut]
         [Route("{id:Guid}")]
+        //[Authorize(Roles ="Writer")]
         public async Task<IActionResult> PutAsync([FromRoute] Guid id, [FromBody] AddProductoRequestDTO productoDomain)
         {
             var productoDomainModel = mapper.Map<Producto>(productoDomain);
@@ -84,6 +90,7 @@ namespace BochaAPI.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteAsync([FromRoute] Guid id) 
         {
             var productoEliminar = await productoRepositorio.DeleteAsync(id);

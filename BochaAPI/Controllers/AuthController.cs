@@ -40,7 +40,7 @@ namespace BochaAPI.Controllers
                     identityResult = await userManager.AddToRolesAsync(identityUser, registerRequestDTO.Roles);
                     if (identityResult.Succeeded)
                     {
-                        return Ok("Usuario registrado correctamente, porfavor loggeate");
+                        return Ok("Usuario registrado correctamente, porfavor inicia sesion");
                     }
                 }
             }
@@ -57,7 +57,6 @@ namespace BochaAPI.Controllers
             if (user != null) 
             {
                 var checkPassword=await userManager.CheckPasswordAsync(user, loginRequestDTO.Password);
-
 
                 if (checkPassword) 
                 {

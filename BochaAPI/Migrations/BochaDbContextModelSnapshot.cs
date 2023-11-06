@@ -125,6 +125,9 @@ namespace BochaAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Precio")
+                        .HasColumnType("float");
+
                     b.HasKey("IdProducto");
 
                     b.ToTable("Producto");

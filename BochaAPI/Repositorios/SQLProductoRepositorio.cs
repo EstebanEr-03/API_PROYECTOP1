@@ -89,6 +89,7 @@ namespace BochaAPI.Repositorios
             productoBuscar.Cantidad = producto.Cantidad;
             productoBuscar.IdCategoria = producto.IdCategoria;
             productoBuscar.Nombre   = producto.Nombre;
+            productoBuscar.Precio = producto.Precio;
 
             await dbContext.SaveChangesAsync();
             return productoBuscar;

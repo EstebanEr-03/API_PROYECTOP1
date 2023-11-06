@@ -1,15 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\BochaAPI",
-    "\\BochaAPI\\Controllers",
-    "\\BochaStore.UI",
-    "\\BochaStore.UI\\Controllers",
-    "\\BochaStore.UI\\Models",
-    "\\BochaStore.UI\\Models\\DTO",
-    "\\BochaStore.UI\\Views",
-    "\\BochaStore.UI\\Views\\Producto",
-    "\\BochaStore.UI\\Views\\Shared"
+    ""
   ],
   "SelectedNode": "\\Bocha.sln",
   "PreviewInSolutionExplorer": false

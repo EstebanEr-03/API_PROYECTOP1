@@ -3387,24 +3387,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\esteb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\emili\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Quinto Semestr\\Progra IV\\PROGRESO 1\\Bocha\\BochaAPI\\BochaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\emili\\Source\\Repos\\API_PROYECTOP1\\BochaAPI\\BochaAPI.csproj",
       "projectName": "BochaAPI",
-      "projectPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Quinto Semestr\\Progra IV\\PROGRESO 1\\Bocha\\BochaAPI\\BochaAPI.csproj",
-      "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esteb\\OneDrive\\Escritorio\\Quinto Semestr\\Progra IV\\PROGRESO 1\\Bocha\\BochaAPI\\obj\\",
+      "projectPath": "C:\\Users\\emili\\Source\\Repos\\API_PROYECTOP1\\BochaAPI\\BochaAPI.csproj",
+      "packagesPath": "C:\\Users\\emili\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emili\\Source\\Repos\\API_PROYECTOP1\\BochaAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\emili\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3412,7 +3407,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3493,7 +3487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

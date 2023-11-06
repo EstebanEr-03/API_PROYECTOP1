@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BochaUI.Models.Producto>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+</head>
+<body>
+    <h1>Productos</h1>
+
+    <div class="row">
+        @foreach (var producto in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="@producto.ImagenProductoURL" alt="Imagen del producto">
+                    <div class="card-body">
+                        <h5 class="card-title">@producto.Nombre</h5>
+                        <p class="card-text">@producto.Descripcion</p>
+                        <p class="card-text">$ @producto.Precio</p>
+                        <a href="#" class="btn btn-primary">Añadir al carrito</a>
+                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>
