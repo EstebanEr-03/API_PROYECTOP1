@@ -1,6 +1,8 @@
-﻿namespace BochaAPI.Models.DTO
+﻿using BochaAPI.Domain;
+
+namespace BochaAPI.Models.DTO
 {
-    public class AddCategoriaRequestDto
+    public class AddCategoriaRequestDTO
     {
         public string Code { get; set; }
         public string Nombre { get; set; }

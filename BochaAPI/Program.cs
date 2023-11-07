@@ -64,6 +64,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("BochaAuthConnect
 
 builder.Services.AddScoped<ICategoriaRepositorio,SQLCategoriaRepositorio>();
 builder.Services.AddScoped<IProductoRepositorio,SQLProductoRepositorio>();
+builder.Services.AddScoped<IMarcaRepositorio,SQLMarcaRepositorio>();
 builder.Services.AddScoped<ITokenRepositorio, TokenRepositorio>();
 builder.Services.AddScoped<IMagenRepositorio, LocalImagenRepositorio>();
 

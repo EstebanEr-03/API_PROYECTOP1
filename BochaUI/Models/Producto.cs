@@ -10,5 +10,6 @@
         public double Precio { get; set; }
         public Guid IdMarca { get; set; }
         public Guid IdCategoria { get; set; }
+
     }
 }

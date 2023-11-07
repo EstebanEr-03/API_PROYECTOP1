@@ -126,31 +126,22 @@ namespace BochaUI.Controllers
             return RedirectToAction("Resumen", "Producto");
 
         }
-
-        [HttpDelete]
-        public async Task<IActionResult> Delete(Guid IdProducto)
+        [HttpPost]
+        public async Task<IActionResult> Delete(Producto solicitud)
         {
             try
             {
                 var cliente = httpClientFactory.CreateClient();
-                var httpResponseMessage = await cliente.DeleteAsync($"https://localhost:7042/api/Producto/{IdProducto}");
 
-                if (httpResponseMessage.IsSuccessStatusCode)
-                {
-                    // La eliminación fue exitosa, puedes redirigir al usuario a la página de resumen o realizar otra acción apropiada.
-                    return RedirectToAction("Resumen", "Producto");
-                }
-                else
-                {
-                    // Manejar el caso en el que la eliminación no fue exitosa, como mostrar un mensaje de error o redirigir a una página de error.
-                    return View("Error"); // Asegúrate de tener una vista "Error" definida en tu proyecto.
-                }
+                var httpResponseMessage = await cliente.DeleteAsync($"https://localhost:7042/api/Producto/{solicitud.IdProducto.ToString()}");
+                httpResponseMessage.EnsureSuccessStatusCode();
+                return RedirectToAction("Resumen", "Producto");
             }
-            catch (Exception ex)
-            {
-                // Manejar errores aquí, como registrarlos o mostrar un mensaje de error al usuario.
-                return View("Error");
+            catch(Exception ex) {
+                throw;
             }
+            return View("Edit");
         }
+       
     }
 }

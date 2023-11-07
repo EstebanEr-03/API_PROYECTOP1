@@ -1,14 +1,14 @@
-﻿using BochaAPI.Domain;
+﻿    using BochaAPI.Domain;
 
 namespace BochaAPI.Repositorios
 {
+    //Imporatante implementar que es una interface
     public interface ICategoriaRepositorio
     {
-        //definicion 
-       Task<List<Categoria>> GetAllAsync();
-       Task<Categoria?> GetByIdAsync(Guid id);//?nulleable region 
-       Task<Categoria> CreateAsync(Categoria categoriaDomainModel);
-       Task<Categoria?> UpdateAsync(Guid id,Categoria categoriaDomainModel);//?nulleable region  porque el id puede que no se encuentre
-       Task<Categoria?> DeleteAsync(Guid id);//?nulleable region  porque el id puede que no se encuentre
+        Task<Categoria> CrearCategoriaAsync(Categoria caminata);
+        Task<List<Categoria>> GetAllAsync(string? filterOn = null, string? filtrerQuery = null, string? sortBy = null, bool isAscending = true);
+        Task<Categoria?> GetByIdAsync(Guid id);
+        Task<Categoria?> PutAsync(Guid id, Categoria caminata);
+        Task<Categoria?> DeleteAsync(Guid id);
     }
 }

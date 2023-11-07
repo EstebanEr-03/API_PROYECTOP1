@@ -11,14 +11,15 @@ namespace BochaAPI.Mappings
             //necesita dos parametros, source y destino
             CreateMap<Categoria, CategoriaDTO>().ReverseMap();
 
-            CreateMap<AddCategoriaRequestDto, Categoria>().ReverseMap();//AddRegionRequestDto source-----Region(DomainModel)destino
-            CreateMap<UpdateCategoriaRequestDTO, Categoria>().ReverseMap();//AddRegionRequestDto source-----Region(DomainModel)destino
-
+            CreateMap<AddCategoriaRequestDTO, Categoria>().ReverseMap();//AddRegionRequestDto source-----Region(DomainModel)destino
+            
             //MapearCaminatas
 
             CreateMap<AddProductoRequestDTO, Producto>().ReverseMap();//AddRegionRequestDto source-----Region(DomainModel)destino
             CreateMap<Producto, ProductoDTO>().ReverseMap();
+
             CreateMap<Marca, MarcaDTO>().ReverseMap();
+            CreateMap<AddMarcaRequestDTO, Marca>().ReverseMap();
         }
     }
 }

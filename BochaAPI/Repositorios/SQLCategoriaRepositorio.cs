@@ -1,66 +1,95 @@
 ﻿using BochaAPI.Data;
 using BochaAPI.Domain;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace BochaAPI.Repositorios
 {
-    public class SQLCategoriaRepositorio : ICategoriaRepositorio
+    public class SQLCategoriaRepositorio : ICategoriaRepositorio //NO OLVIDARSE QUE SE DEBE INYECTAR EL REPOSITORIO EN PROGRAM
     {
-
-        //Inyectar DbContextClass
         private readonly BochaDbContext dbContext;
 
         public SQLCategoriaRepositorio(BochaDbContext dbContext)
         {
-            this.dbContext=dbContext;
+            this.dbContext = dbContext;
         }
 
-        public async Task<Categoria> CreateAsync(Categoria CategoriaDomainModel)
+
+        public async Task<Categoria> CrearCategoriaAsync(Categoria categoria)
         {
-             await dbContext.Categoria.AddAsync(CategoriaDomainModel);
-             await dbContext.SaveChangesAsync();
-            return CategoriaDomainModel;
+            await dbContext.Categoria.AddAsync(categoria);
+            await dbContext.SaveChangesAsync();
+            return categoria;
         }
 
         public async Task<Categoria?> DeleteAsync(Guid id)
         {
-           var CategoriaBuscar= await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
-            if (CategoriaBuscar == null) 
+            var categoriaBuscar = await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
+            if (categoriaBuscar == null)
             {
                 return null;
             }
-             dbContext.Categoria.Remove(CategoriaBuscar);
+            dbContext.Categoria.Remove(categoriaBuscar);
             await dbContext.SaveChangesAsync();
-            return CategoriaBuscar;
+            return categoriaBuscar;
         }
 
-
-
-        //Implementar interfaz
-        public async Task<List<Categoria>> GetAllAsync()
+        public async Task<List<Categoria>> GetAllAsync(string? filterOn = null, string? filtrerQuery = null, string? sortBy = null, bool isAscending = true)
         {
-            return await dbContext.Categoria.ToListAsync();
+            var walks = dbContext.Categoria.AsQueryable();
+
+
+            //Filtering
+            if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filtrerQuery) == false)
+            {
+                if (filterOn.Equals("Nombre", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(x => x.Nombre.Contains(filtrerQuery));
+
+
+                }
+            }
+            //Sorting
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if (sortBy.Equals("Nombre", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.Nombre) : walks.OrderByDescending(x => x.Nombre);
+                }
+            }
+
+
+            return await walks.ToListAsync();
+
         }
 
         public async Task<Categoria?> GetByIdAsync(Guid id)
         {
-            return await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
-        }
-
-        public async Task<Categoria?> UpdateAsync(Guid id, Categoria CategoriaDomainModel)
-        {
-            var CategoriaEncontrada = await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
-            if (CategoriaEncontrada == null)
+            var categoriaBuscar = await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
+            if (categoriaBuscar == null)
             {
                 return null;
             }
-            CategoriaEncontrada.Nombre = CategoriaDomainModel.Nombre;
-            CategoriaEncontrada.Code = CategoriaDomainModel.Code;
-            CategoriaEncontrada.CategoriaImageURL = CategoriaDomainModel.CategoriaImageURL;
+            return categoriaBuscar;
+        }
+
+        public async Task<Categoria?> PutAsync(Guid id, Categoria categoria)
+        {
+            var categoriaBuscar = await dbContext.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
+            if (categoriaBuscar == null)
+            {
+                return null;
+            }
+            categoriaBuscar.CategoriaImageURL = categoria.CategoriaImageURL;
+            categoriaBuscar.IdCategoria= categoria.IdCategoria;
+            categoriaBuscar.Code = categoria.Code;
+            categoriaBuscar.Nombre = categoria.Nombre;
 
             await dbContext.SaveChangesAsync();
-            return CategoriaEncontrada;
+            return categoriaBuscar;
+
+
         }
     }
+
+
 }

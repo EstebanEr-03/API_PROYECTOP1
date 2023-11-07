@@ -1,0 +1,24 @@
+﻿@model BochaUI.Models.Marca
+@{
+    ViewData["Title"] = "Crear Marca";
+}
+<h1 style="text-align:center">@ViewData["Title"]</h1>
+
+    <form method="post">
+        <div class="mb-3">
+            <label>Nombre :</label>
+            <input asp-for="Nombre" class="form-control">
+        </div>
+
+    <div class="row col-6">
+        <div class="col-3 col-md-3">
+            <br />
+            <button type="submit" class="btn btn-outline-light">Guardar</button>
+        </div>
+        <div class="col-3 col-md-3">
+            <br />
+            <a asp-action="Resumen" class="btn btn-outline-light">Regresar</a>
+        </div>
+    </div>
+
+    </form>

@@ -44,7 +44,7 @@
                 <div class="col-sm-12 col-lg-3">
                     <div class="logo"><h1 class="furniture_text1">Bocha <h1 class="furniture_text2"> Store</h1></h1></div>
                 </div>
-                <div class="col-sm-4 col-lg-5">
+                <div class="col-sm-12 col-lg-9">
                     <div class="menu-area">
                         <nav class="navbar navbar-expand-lg ">
                             <!-- <a class="navbar-brand" href="#">Menu</a> -->
@@ -52,13 +52,17 @@
                                 <i class="fa fa-bars"></i>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mr-auto">
+                                <ul class="navbar-nav table">
                                     <li class="nav-item active">
                                         <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                                     <li class="nav-item">
-                                        <a class="nav-link active" asp-area="" asp-controller="Producto" asp-action="Index">Productos</a>
+                                        <a class="nav-link active" asp-area="" asp-controller="Producto" asp-action="Index">Vista Tienda</a>
                                     <li class="nav-item">
-                                        <a class="nav-link active" asp-area="" asp-controller="Producto" asp-action="Resumen">Administracion</a>
+                                        <a class="nav-link active" asp-area="" asp-controller="Producto" asp-action="Resumen">Administracion Productos</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" asp-area="" asp-controller="Categoria" asp-action="Resumen">Administracion Categorias</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" asp-area="" asp-controller="Marca" asp-action="Resumen">Administracion Marcas</a>
                                     <li class="nav-item">
                                         <a class="nav-link active" asp-area="" asp-controller="Login" asp-action="Index">Iniciar Sesion / Registrarse</a>
                                 </ul>
